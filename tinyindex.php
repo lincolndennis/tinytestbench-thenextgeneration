@@ -150,7 +150,7 @@
 <body onload="loadScripts(loadScriptsParameters)">
 
   <header class="navbar navbar-dark bg-primary fixed-top">
-      <span class="title navbar-brand">TinyMCE <em>THE NEXT GENERATION</em> - v<?php echo $editorVersion ?></span>
+      <span class="title navbar-brand">TinyMCE - v<?php echo $editorVersion ?></span>
       <div class="form-inline">
         <div class="input-group" style="<?php if ($demoMode) echo 'display:none;'?>">
           <div class="input-group-prepend">
