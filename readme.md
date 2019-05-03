@@ -39,9 +39,5 @@ would end up like this for TinyMCE 4:
 
 `editors/tinymce_4.3.8/tinymce/tinymce.js`
 
-... and like this for TinyMCE 3:
-
-`editors/tinymce_3.5.10/jscripts/tiny_mce/tiny_mce.js`
-
 ***The editor files are NOT in the Git repo in order to keep the
 size of the repo reasonable.***
