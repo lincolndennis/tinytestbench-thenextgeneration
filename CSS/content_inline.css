@@ -1,0 +1,38 @@
+body {
+	/*font-family: 'Verdana', sans-serif;*/
+	/*font-size: 12pt;*/
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th {
+	font-size: 12pt;
+	font-weight: bold;
+}
+td {
+	font-size: 11pt;
+}
+
+blockquote {
+    border: 1px solid #cccccc;
+    background-color: #f0f0ee;
+    padding: 10px;
+}
+
+.classRed {
+	color: red;
+}
+
+.classBlue {
+	color: blue;
+}
+
+.classGreen {
+	color: green;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1>Raw ContentEditable Test Page</h1>
+    <div style="float:left;width:33%;">
+        You can paste into this content editable textarea to see what we get from the clipboard...
+        <div onpaste="showRawHtml();" id="nontiny" style="width:100%;height:300px;border:2px solid black;" contenteditable="true"></div>
+        <!--<button onclick="showRawHtml(); return false;">Show raw HTML</button>-->
+    </div>
+    <div style="float:right; width:63%;">
+        <div id="rawhtml" style="border:2px solid black;">
+            <em>This will show the raw HTML of what is pasted in the DIV on the left!</em>
+        </div>
+    </div>
+    <script>
+        function showRawHtml() {
+            document.getElementById('rawhtml').innerText = "Loading...";
+            setTimeout(function() {
+                document.getElementById('rawhtml').innerText = document.getElementById('nontiny').innerHTML;
+            }, 750);
+        }
+    </script>
+
+</body>
+</html>

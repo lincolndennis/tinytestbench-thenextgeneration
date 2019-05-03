@@ -1,0 +1,6 @@
+#TinyMCE Editor files
+editors/*
+!editors/readme.md
+plugins/
+
+.DS_Store

@@ -1,0 +1,81 @@
+.mce-codemirror * {
+    font-family: 'Courier New' !important;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  /* First url for Chrome 26+, Opera 23+ */
+  /* Second url for Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/lato-v11-latin/lato-v11-latin-regular.woff2') format('woff2'),
+       url('../fonts/lato-v11-latin/lato-v11-latin-regular.woff') format('woff');
+}
+
+/*.mce-tinymce.mce-container.mce-panel {
+  border: 2px dashed blue !important;
+}*/
+
+.mce-statusbar>.mce-container-body>*:last-child {
+    padding-right: 0 !important;
+}
+
+.mce-wordcount {
+    padding: 8px 20px !important;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.main {
+  padding-top: 125px;
+}
+
+.editor-config-options {
+  display: flex;
+  justify-content: center;
+}
+
+.editor-config-options > .input-group, .editor-config-options > .custom-switch {
+  margin: 10px;
+}
+
+.reload-btn {
+  margin: 10px 0;
+}
+
+.editor {
+  margin: 20px -3px;
+}
+
+.controls h5 {
+  text-align: center;
+}
+
+.plugins {
+  margin-bottom: 25px;
+}
+
+/* Inline Editing specific CSS */
+.mce_div:hover {
+    outline: 2px blue dashed;
+}
+.mce_h1:hover {
+    outline: 2px blue dashed;
+}
+/* End Inline Editing specific CSS */
+
+#preview {
+	display: none;
+	/* width: 100%;
+	height: 500px; */
+}
+
+.testBold {
+	font-weight: bold;
+}
+.testRed {
+	color: red;
+}
