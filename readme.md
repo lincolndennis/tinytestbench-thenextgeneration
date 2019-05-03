@@ -31,7 +31,7 @@ For example:
 
 The testbench uses the folder names to know a few details:
 
- * The major version of TinyMCE (e.g. 3 or 4)
+ * The major version of TinyMCE (e.g. 4 or 5)
  * The version number (e.g. 4.3.8) to show in the select list
 
 The files for each editor version go inside each folder like so:
